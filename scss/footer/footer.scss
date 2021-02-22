@@ -1,5 +1,5 @@
 footer {
-  width: 1280px;
+  max-width: 1280px;
   height: 100px;
   background-color: $site-blue;
   margin: 0 auto;
@@ -34,6 +34,15 @@ footer {
       svg {
         margin: 0, 40, 0, 40;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    .container {
+      max-width: 800px;
+      min-width: 600px;
     }
   }
 }

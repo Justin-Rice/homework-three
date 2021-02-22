@@ -92,3 +92,60 @@
     color: $white;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .booking-form {
+    max-width: 700px;
+    min-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 1200px;
+    .flex {
+      justify-content: space-between;
+      .col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .name {
+        margin: 20px auto;
+        width: auto;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .email {
+        margin: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .booking-form {
+    .flex2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .check {
+      max-width: 700px;
+      min-width: auto;
+    }
+  }
+
+  .flex3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: auto;
+  }
+  .long {
+    max-width: 700px;
+    min-width: auto;
+  }
+  .submit {
+    max-width: 700px;
+    margin: auto;
+  }
+}
